@@ -1,0 +1,37 @@
+.app-header {
+	height: 70px;
+	background-color: #000000;
+}
+.app-header__logo {
+	float: left;
+	font-size: 1.5625em;
+	color: #FFFFFF;
+	font-weight: 900;
+	line-height: 70px;
+	margin-left: 25px;
+}
+
+.app-header__controls {
+	float: right;
+	font-size: 0.75em;
+	vertical-align: middle;
+	line-height: 70px;
+	margin-right: 30px;
+}
+
+.language-select {
+	display: inline-block;
+	color: #FFFFFF;
+	margin-right: 30px;
+}
+.language-select:hover {
+	color: #FFFFFF;
+}
+.register-select:hover {
+	color: #AD8C00;
+}
+
+.register-select {
+	display: inline-block;
+	color: #AD8C00;
+}

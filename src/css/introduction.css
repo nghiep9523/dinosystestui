@@ -1,0 +1,32 @@
+.intro-wrapper {
+	position: relative;
+	margin-bottom: 170px;
+}
+
+.intro-video {
+	position: absolute;
+	top: 65px;
+	right: 80px;
+	-webkit-box-shadow: 0 0 5px 1px #16181A;
+    -moz-box-shadow: 0 0 5px 1px #16181A;
+    box-shadow: 0 0 5px 1px #16181A;
+}
+
+.intro-video iframe {
+	display:block;
+}
+
+.intro-title {
+	font-size: 1.5em;
+	font-weight: bolder;
+	margin-bottom: 75px;
+}
+.intro {
+	background-color: #FFE800;
+	padding: 50px 85px 50px 85px;
+	text-align: left;
+}
+.intro-content {
+	width: 40%;
+	font-size: 0.75em;
+}

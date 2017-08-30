@@ -1,0 +1,72 @@
+.carousel-wrapper {
+	position: relative;
+	max-height: 810px;
+	overflow: hidden;
+}
+.carousel-control {
+	width: 5%;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+	background-image: none;
+	opacity: 1;
+}
+
+.carousel-control.right > span,
+.carousel-control.left > span {
+	height: 40px;
+}
+
+.carousel-control.right > span:before {
+	font-family: FontAwesome;
+    content: "\f105";
+    font-size: 1.25em;
+}
+
+.carousel-control.left> span:before {
+	font-family: FontAwesome;
+    content: "\f104";
+    font-size: 1.25em;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    border: none;
+    margin: 0 7.5px 0 7.5px;
+}
+
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    background-color: #FBDD10;
+    border: none;
+    margin: 0 7.5px 0 7.5px;
+}
+
+.sign-up-block {
+	position: absolute;
+	top: 30%;
+	left: 10%;
+}
+.sign-up-block__slogan{
+	text-align: end;
+	color: #FFFFFF;
+	font-weight: 600;
+}
+.sign-up-block__button {
+	float: right;
+	clear: both;
+	margin-top: 25px;
+	font-size: 0.75em;
+	padding: 16px 30px;
+	background-color: #FBDD10;
+	font-weight: bolder;
+	border-radius: 5px;
+	border: none;
+}
+.path-detail-chart-checkbox {
+	color: #FFFFFF;
+}
